@@ -1,0 +1,36 @@
+/* Stylesheet for the oscilloscope */
+
+#main{
+    display: flex;
+    flex-direction: row;
+}
+
+#canvas_holder{
+    width: 60%;
+    height: 100%;
+}
+
+#controls_holder{
+    width: 40%;
+}
+
+#channelOne{
+}
+
+#channelTwo{
+}
+.channel{
+    width: 100%;
+    height: 50%;
+}
+
+.control{
+    display: flex;
+    flex-directon: row;
+}
+
+.number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

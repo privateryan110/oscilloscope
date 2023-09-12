@@ -1,0 +1,64 @@
+<!--site template-->
+<!doctype html>
+<html>
+  <head>
+    <!--p5 library -->
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.2/lib/p5.js"></script>
+    <!--p5 sound library -->
+    <script defer src=https://cdn.JsDelivr.net/npm/p5/lib/addons/p5.sound.min.js></script>
+    
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      
+    </style>
+  </head>
+      <body>
+          <div id = "main">
+            <div id = "canvas_holder"></div>
+            <div id = "controls_holder">
+                
+                <div id = "channelOne" class = "channel">
+                    <h1>Channel 1</h1>
+                    <div class = "control">
+                        <h3>Hertz</h3>
+                        <input type="range" min="0" max="50 " value="1" id="channelOneHertz">
+                        <div class = "number" id = "channelOneHertzDiplay"></div>
+                    </div>
+                    <div class = "control">
+                        <h3>Amplitude</h3>
+                        <input type="range" min="0" max="500" value="250" id="channelOneAmp">
+                        <div class = "number" id = "channelOneAmpDiplay"></div>
+                    </div>
+                    <div class = "control">
+                        <h3>Phase</h3>
+                        <input type="range" min="0" max="500" value="0" id="channelOnePhase">
+                        <div class = "number" id = "channelOnePhaseDiplay"></div>
+                    </div>
+                    
+                    
+                </div>  
+                
+                
+                <div id = "channelTwo" class = "channel">
+                    <h1>Channel 2</h1>
+                    <div class = "control">
+                        <h3>Hertz</h3>
+                        <input type="range" min="0" max="50 " value="1" id="channelTwoHertz">
+                        <div class = "number" id = "channelTwoHertzDiplay"></div>
+                    </div>
+                    <div class = "control">
+                        <h3>Amplitude</h3>
+                        <input type="range" min="0" max="500" value="250" id="channelTwoAmp">
+                        <div class = "number" id = "channelTwoAmpDiplay"></div>
+                    </div>
+                    <div class = "control">
+                        <h3>Phase</h3>
+                        <input type="range" min="0" max="500" value="0" id="channelTwoPhase">
+                        <div class = "number" id = "channelTwoPhaseDiplay"></div>
+                    </div>
+                </div>
+            </div>
+          </div>
+      </body>
+</html>
